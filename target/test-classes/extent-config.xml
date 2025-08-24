@@ -1,0 +1,8 @@
+<extentreports>
+  <configuration>
+    <reportName>Apex – Data Integrity Report</reportName>
+    <documentTitle>Apex Test Report</documentTitle>
+    <theme>STANDARD</theme>
+    <encoding>utf-8</encoding>
+  </configuration>
+</extentreports>
