@@ -1,34 +1,39 @@
-# 📺 TV Indicator Testing Suite
+# 📊 Apex – Real-Time Data Integrity Framework  
 
-## 📌 Overview
-This repository contains **testing for a TV Indicator project**, including **manual test cases** and **automation scripts** with Cypress.
+## 📌 Overview  
+This repository contains **automation scripts and validation tests** for a financial charting platform.  
+The project focuses on validating **TradingView’s Advanced Chart** against the **Alpha Vantage API** to ensure **data accuracy and integrity**.  
 
-## 🎯 Objectives
-- Validate TV indicator features like **Power On/Off, Volume, Channel switching, and Display.**
-- Maintain a **structured automation framework** with reusable test scripts.
-- Document manual test cases, test plan, and bug reports.
+The framework handles **dynamic data, complex UI automation, and precision API vs. UI validation**.  
 
-## 🛠️ Tools & Technologies
-- Manual Testing (Functional, Regression)
-- **Cypress** (Automation Framework with POM)
-- **JavaScript / Node.js**
-- Test Documentation (Test Plan, Scenarios, Bug Reports)
-- GitHub for version control
+## 🎯 Objectives  
+- Validate TradingView chart’s OHLC data against Alpha Vantage API.  
+- Automate chart interactions (adding indicators, switching timeframes).  
+- Verify real-time price ticker updates and format consistency.  
+- Deliver BDD-driven tests with professional reporting and CI/CD integration.  
 
-## 🔎 Test Coverage
-- **Power On/Off Functionality**
-- **Volume Control & Mute**
-- **Channel Navigation**
-- **Display & UI Validation**
-- **Bug Reporting**
+## 🛠️ Tools & Technologies  
+- Selenium WebDriver (Java + Maven)  
+- Cucumber (BDD Scenarios)  
+- Extent Reports (Detailed Reporting)  
+- Alpha Vantage API (Stock Market Data)  
+- GitHub Actions (CI/CD)  
 
-## 🚀 How to Run (Automation)
+## 🔎 Test Coverage  
+- Historical OHLC Data Validation (UI vs. API)  
+- Adding and verifying MACD Indicator  
+- Switching chart timeframes (Daily, Weekly, Monthly)  
+- Real-time ticker liveness and regex validation  
+- Detailed Extent Reports with API vs. UI comparison  
+
+## 🚀 How to Run Tests  
 ```bash
-# Clone repository
+# Clone repo
 git clone https://github.com/Nikhil-Damale/tv-indicator-testing-suite
+cd tv-indicator-testing-suite
 
-# Install dependencies
-npm install
+# Add Alpha Vantage API key in config
+# Example: src/test/resources/config.properties
 
-# Run Cypress Tests
-npx cypress open
+# Run Maven tests
+mvn clean test
