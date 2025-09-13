@@ -1,39 +1,47 @@
-# 📊 Apex – Real-Time Data Integrity Framework  
 
-## 📌 Overview  
-This repository contains **automation scripts and validation tests** for a financial charting platform.  
-The project focuses on validating **TradingView’s Advanced Chart** against the **Alpha Vantage API** to ensure **data accuracy and integrity**.  
+---
 
-The framework handles **dynamic data, complex UI automation, and precision API vs. UI validation**.  
+### 🟡 2. TV Indicator Testing Suite (Simple Bullet-Point Style)
 
-## 🎯 Objectives  
-- Validate TradingView chart’s OHLC data against Alpha Vantage API.  
-- Automate chart interactions (adding indicators, switching timeframes).  
-- Verify real-time price ticker updates and format consistency.  
-- Deliver BDD-driven tests with professional reporting and CI/CD integration.  
+```markdown
+# 📺 TV Indicator Testing Suite
 
-## 🛠️ Tools & Technologies  
-- Selenium WebDriver (Java + Maven)  
-- Cucumber (BDD Scenarios)  
-- Extent Reports (Detailed Reporting)  
-- Alpha Vantage API (Stock Market Data)  
-- GitHub Actions (CI/CD)  
+A lightweight **manual + automation testing project** designed to validate the functionality of a **TV Indicator application**.
 
-## 🔎 Test Coverage  
-- Historical OHLC Data Validation (UI vs. API)  
-- Adding and verifying MACD Indicator  
-- Switching chart timeframes (Daily, Weekly, Monthly)  
-- Real-time ticker liveness and regex validation  
-- Detailed Extent Reports with API vs. UI comparison  
+---
 
-## 🚀 How to Run Tests  
-```bash
-# Clone repo
-git clone https://github.com/Nikhil-Damale/tv-indicator-testing-suite
-cd tv-indicator-testing-suite
+## ✅ Key Highlights
+- Covered **manual and automation testing** for core features.
+- Wrote **functional, UI, and validation test cases**.
+- Reported bugs with detailed steps & screenshots.
+- Automated key flows for **faster regression testing**.
 
-# Add Alpha Vantage API key in config
-# Example: src/test/resources/config.properties
+---
 
-# Run Maven tests
-mvn clean test
+## 🧪 Testing Scope
+- Manual Test Cases → Validations & workflows
+- Bug Reports → Functional + UI issues
+- Automation → Core scenarios using Cypress
+
+---
+
+## 📂 Repo Includes
+- `manual-tests/` → Test case docs  
+- `bug-reports/` → Issues with severity/priority  
+- `automation/` → Cypress test scripts  
+
+---
+
+## ⚡ Tech Used
+- Cypress (Automation)
+- Manual Testing (Functional/UI)
+- GitHub Issues for bug tracking
+
+---
+
+## 🚀 Quick Start
+- Clone repo  
+- Install Cypress  
+- Run:
+  ```bash
+  npx cypress open
