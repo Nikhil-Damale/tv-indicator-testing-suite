@@ -1,9 +1,3 @@
-
----
-
-### 🟡 2. TV Indicator Testing Suite (Simple Bullet-Point Style)
-
-```markdown
 # 📺 TV Indicator Testing Suite
 
 A lightweight **manual + automation testing project** designed to validate the functionality of a **TV Indicator application**.
@@ -19,9 +13,9 @@ A lightweight **manual + automation testing project** designed to validate the f
 ---
 
 ## 🧪 Testing Scope
-- Manual Test Cases → Validations & workflows
-- Bug Reports → Functional + UI issues
-- Automation → Core scenarios using Cypress
+- Manual Test Cases → Validations & workflows  
+- Bug Reports → Functional + UI issues  
+- Automation → Core scenarios using Cypress  
 
 ---
 
@@ -33,15 +27,17 @@ A lightweight **manual + automation testing project** designed to validate the f
 ---
 
 ## ⚡ Tech Used
-- Cypress (Automation)
-- Manual Testing (Functional/UI)
-- GitHub Issues for bug tracking
+- Cypress (Automation)  
+- Manual Testing (Functional/UI)  
+- GitHub Issues for bug tracking  
 
 ---
 
 ## 🚀 Quick Start
-- Clone repo  
-- Install Cypress  
-- Run:
-  ```bash
-  npx cypress open
+Clone the repository and run Cypress:
+
+```bash
+git clone https://github.com/Nikhil-Damale/tv-indicator-testing-suite.git
+cd tv-indicator-testing-suite
+npm install
+npx cypress open
